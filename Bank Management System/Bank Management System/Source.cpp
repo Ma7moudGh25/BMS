@@ -93,7 +93,7 @@ int main()
 					cin >> money_amount;
 					
 						p[pass].money_amount += money_amount;
-						cout << "withdraw is done << endl;
+						cout << "withdraw is done" << endl;
 					
 				}
 				else
