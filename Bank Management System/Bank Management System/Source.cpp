@@ -91,11 +91,10 @@ int main()
 				{
 					cout << "Enter amount of money you want to withdraw" << endl;
 					cin >> money_amount;
-					if (money_amount <= p[pass].money_amount)
-					{
+					
 						p[pass].money_amount += money_amount;
 						cout << "withdraw is done,Your bank balance is " << money_amount << endl;
-					}
+					
 				}
 				else
 				{
